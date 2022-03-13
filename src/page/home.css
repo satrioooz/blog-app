@@ -1,0 +1,29 @@
+.body {
+    height:130vh;
+}
+
+.banner{
+    height:85vh;
+    background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url(../images/book.jpg);
+    background-size:cover;
+    background-position:50% 75%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+
+.banner  h1{
+    color:#fff;
+    /* font-size:3rem; */
+}
+
+.banner  p{
+    color:#fff;
+    font-size:2rem;
+}
